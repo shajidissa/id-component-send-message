@@ -6,7 +6,7 @@
 	<groupId>uk.co.h2ss</groupId>
 	<artifactId>id-component-send-message</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>id-component-send-message</name>
 	<description>Id Component Send Message</description>
