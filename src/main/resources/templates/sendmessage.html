@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Send Message to ActiveMQ</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>ID Component - Send Message to ActiveMQ</h1>
+    <form action="#" th:action="@{/sendmessage}" th:object="${sendmessage}" method="post">
+    	<p>Id: <input type="text" th:field="*{id}" /></p>
+        <p>Message: <input type="text" th:field="*{msg}" /></p>
+        <p><input type="submit" value="Submit" /> <input type="reset" value="Reset" /></p>
+    </form>
+    
+     <br></br>
+       <br></br>
+       <br></br>
+       <br></br>
+           
+       
+       <p><a href="http://bitnami-tomcatstack-5abd.cloudapp.net:8161/admin" target="_blank">ActiveMQ</a> - login credentials : admin/admin</p> 
+    
+</body>
+</html>
